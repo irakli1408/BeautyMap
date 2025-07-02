@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautyMap", "BeautyMap\BeautyMap.csproj", "{06498BC6-9FED-4031-9BFB-43429AB1E7F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{B0BD14BC-6C72-43D6-8D25-2ACA5A10AA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{FD8F65F7-37F5-4145-A25D-4F97383947B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC59C96E-09EC-461A-B23C-D16075AE0D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautyMap.Common", "BeautyMap.Common\BeautyMap.Common.csproj", "{A90AF49D-DFC7-4809-887A-4A2D7C4EB63D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06498BC6-9FED-4031-9BFB-43429AB1E7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06498BC6-9FED-4031-9BFB-43429AB1E7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06498BC6-9FED-4031-9BFB-43429AB1E7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06498BC6-9FED-4031-9BFB-43429AB1E7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90AF49D-DFC7-4809-887A-4A2D7C4EB63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90AF49D-DFC7-4809-887A-4A2D7C4EB63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90AF49D-DFC7-4809-887A-4A2D7C4EB63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90AF49D-DFC7-4809-887A-4A2D7C4EB63D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06498BC6-9FED-4031-9BFB-43429AB1E7F8} = {DC59C96E-09EC-461A-B23C-D16075AE0D74}
+		{A90AF49D-DFC7-4809-887A-4A2D7C4EB63D} = {B0BD14BC-6C72-43D6-8D25-2ACA5A10AA2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7699A586-4766-45FF-B0FD-660EA7767225}
+	EndGlobalSection
+EndGlobal
