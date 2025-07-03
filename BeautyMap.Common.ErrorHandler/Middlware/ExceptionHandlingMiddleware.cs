@@ -1,15 +1,9 @@
 ﻿using BeautyMap.Common.ErrorHandler.Exceptions;
 using BeautyMap.Common.ErrorHandler.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Net;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using System.Net;
+using System.Text.Json;
 
 namespace BeautyMap.Common.ErrorHandler.Middlware
 {
