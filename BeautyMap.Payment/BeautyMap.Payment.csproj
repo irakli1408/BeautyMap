@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BeautyMap\BeautyMap.API.csproj" />
+  </ItemGroup>
+
 </Project>

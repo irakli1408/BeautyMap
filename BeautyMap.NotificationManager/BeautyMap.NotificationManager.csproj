@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BeautyMap.Domain\BeautyMap.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

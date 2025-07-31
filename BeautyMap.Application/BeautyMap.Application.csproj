@@ -6,4 +6,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BeautyMap.Common.ErrorHandler\BeautyMap.Common.ErrorHandler.csproj" />
+    <ProjectReference Include="..\BeautyMap.Common\BeautyMap.Common.csproj" />
+    <ProjectReference Include="..\BeautyMap.Domain\BeautyMap.Domain.csproj" />
+    <ProjectReference Include="..\BeautyMap.FileManager\BeautyMap.FileManager.csproj" />
+    <ProjectReference Include="..\BeautyMap.NotificationManager\BeautyMap.NotificationManager.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Handler\Admin\Authorization\" />
+    <Folder Include="Handler\Admin\UserManagers\" />
+  </ItemGroup>
+
 </Project>
