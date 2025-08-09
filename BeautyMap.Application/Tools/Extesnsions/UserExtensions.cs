@@ -18,7 +18,7 @@ namespace BeautyMap.Application.Tools.Extesnsions
                 throw new Exception("Email Already Registered!");
         }
         // გამოძახება ხდება db.CheckUser(userId);
-        public static async Task<UserEntity> CheckUser(this IBlogLikeDbContext db, string request)
+        public static async Task<UserEntity> CheckUser(this IBeautyMapDbContext db, string request)
         {
             return await db.Users
                 .AsNoTracking()
@@ -28,7 +28,7 @@ namespace BeautyMap.Application.Tools.Extesnsions
                         .ThenInclude(x => x.RoleLocales)
                 .FirstOrDefaultAsync(x => (x.Id == request || x.Email == request) && x.DeleteDate == null);
         }
-        public static async Task IsEmailRegistered(this IBlogLikeDbContext db, string newEmail)
+        public static async Task IsEmailRegistered(this IBeautyMapDbContext db, string newEmail)
         {
             if (await db.Users.AsNoTracking().AnyAsync(x => x.Email == newEmail))
                 throw new Exception("Email Already Exists!");

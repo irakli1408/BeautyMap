@@ -12,15 +12,13 @@
     <PackageReference Include="MediatR" Version="13.0.0" />
     <PackageReference Include="RateLimiter" Version="2.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BeautyMap.Application\BeautyMap.Application.csproj" />
     <ProjectReference Include="..\BeautyMap.Common.ErrorHandler\BeautyMap.Common.ErrorHandler.csproj" />
     <ProjectReference Include="..\BeautyMap.Common\BeautyMap.Common.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

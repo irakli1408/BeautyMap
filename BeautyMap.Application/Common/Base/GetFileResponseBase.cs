@@ -1,6 +1,6 @@
 ﻿namespace BeautyMap.Application.Base
 {
-    namespace BlogLike.Application.Common.Base
+    namespace BeautyMap.Application.Common.Base
     {
         public class GetFileBase
         {

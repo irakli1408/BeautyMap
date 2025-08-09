@@ -1,4 +1,4 @@
-﻿using BeautyMap.Application.Base.BlogLike.Application.Common.Base;
+﻿using BeautyMap.Application.Base.BeautyMap.Application.Common.Base;
 using BeautyMap.Application.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -8,8 +8,8 @@ namespace BeautyMap.Application.Tools.Managers.FilesManager
 {
     public class FilesManager : IFilesManager
     {
-        private readonly IBlogLikeDbContext db;
-        public FilesManager(IBlogLikeDbContext db)
+        private readonly IBeautyMapDbContext db;
+        public FilesManager(IBeautyMapDbContext db)
         {
             this.db = db;
         }

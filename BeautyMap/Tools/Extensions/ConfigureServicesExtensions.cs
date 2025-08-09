@@ -26,7 +26,7 @@ namespace BeautyMap.API.Tools.Extensions
             //    opts.Password.RequiredLength = 8;
             //})
             //.AddRoles<Role>()
-            //.AddEntityFrameworkStores<BlogLikeDbContext>()
+            //.AddEntityFrameworkStores<BeautyMapDbContext>()
             //.AddDefaultTokenProviders();
 
             //ToDo: Add RateLimiter after 

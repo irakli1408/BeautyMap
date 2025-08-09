@@ -18,13 +18,13 @@ namespace BeautyMap.Application.Tools.Managers.Token
         private readonly UserManager<UserEntity> userManager;
         private readonly IConfiguration configuration;
         private UserEntity user;
-        private readonly IBlogLikeDbContext db;
+        private readonly IBeautyMapDbContext db;
 
         private readonly ICurrentStateService currentStateService;
 
         public TokenService(UserManager<UserEntity> userManager,
             IConfiguration configuration,
-            IBlogLikeDbContext db,
+            IBeautyMapDbContext db,
             ICurrentStateService currentStateService)
         {
             this.userManager = userManager;

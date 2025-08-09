@@ -9,11 +9,11 @@ namespace BeautyMap.Application.Tools.Managers.Languages
 {
     public class LanguageService : ILanguageService
     {
-        private readonly IBlogLikeDbContext db;
+        private readonly IBeautyMapDbContext db;
         private readonly ICurrentStateService stateService;
         private int? cachedLanguageId;
 
-        public LanguageService(IBlogLikeDbContext db, ICurrentStateService stateService)
+        public LanguageService(IBeautyMapDbContext db, ICurrentStateService stateService)
         {
             this.db = db;
             this.stateService = stateService;

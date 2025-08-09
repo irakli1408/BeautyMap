@@ -1,4 +1,6 @@
-﻿namespace BeautyMap.Domain.Common.BaseEntities
+﻿using BeautyMap.Domain.Common.Contract;
+
+namespace BeautyMap.Domain.Common.BaseEntities
 {
     public abstract class TrackedEntity<T> : BaseEntity<T>, ITrackedEntity
     {

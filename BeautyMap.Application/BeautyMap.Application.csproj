@@ -21,9 +21,4 @@
     <ProjectReference Include="..\BeautyMap.NotificationManager\BeautyMap.NotificationManager.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Handler\Admin\Authorization\" />
-    <Folder Include="Handler\Admin\UserManagers\" />
-  </ItemGroup>
-
 </Project>

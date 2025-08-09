@@ -1,4 +1,4 @@
-﻿using BeautyMap.Application.Base.BlogLike.Application.Common.Base;
+﻿using BeautyMap.Application.Base.BeautyMap.Application.Common.Base;
 using BeautyMap.Domain.Common.BaseEntities;
 
 namespace BeautyMap.Application.Common.Models

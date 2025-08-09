@@ -13,11 +13,11 @@ namespace BeautyMap.Application.Tools.Managers.Notifications
 {
     public class NotificationBuilder : INotificationBuilder
     {
-        private readonly IBlogLikeDbContext _db;
+        private readonly IBeautyMapDbContext _db;
         private readonly ILanguageService _languageService;
         private readonly ISendNotification _sendNotification;
         private readonly IConfiguration _configuration;
-        public NotificationBuilder(IBlogLikeDbContext db, ILanguageService languageService, ISendNotification sendNotification, IConfiguration configuration)
+        public NotificationBuilder(IBeautyMapDbContext db, ILanguageService languageService, ISendNotification sendNotification, IConfiguration configuration)
         {
             _db = db;
             _languageService = languageService;

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using BeautyMap.Domain.Entities.Notifications;
 
 namespace BeautyMap.Domain.Entities.Account
 {

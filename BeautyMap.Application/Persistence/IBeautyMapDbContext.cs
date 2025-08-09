@@ -10,7 +10,7 @@ using File = BeautyMap.Domain.Entities.Files.File;
 
 namespace BeautyMap.Application.Persistence
 {
-    public interface IBlogLikeDbContext
+    public interface IBeautyMapDbContext
     {
         #region Tables
         #region User
